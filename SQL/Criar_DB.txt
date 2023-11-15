@@ -1,0 +1,8 @@
+Esse documento é um Step-by-Step de como criar e inicalizar o banco de dados do desafio avanti.
+
+1 - Rodar o create database "CREATE DATABASE desafio_avanti;"
+
+2 - Por haver depência entre as tabelas, a criação das tabelas deve ter a seguinte ordem:
+	1 - Rodar o arquivo Locais.sql
+	2 - Rodar o arquivo categorias.sql
+	3 - Rodar o arquivo Eventos.sql
